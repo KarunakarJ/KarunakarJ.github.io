@@ -1,0 +1,26 @@
+html {
+  background-color: #fbf8cc;
+}
+* {
+  background-color: #fbf8cc;
+  margin: 0;
+  padding: 0;
+}
+nav a.navbar-brand {
+  padding-left: 3%;
+  color: #06155e;
+  font-weight: 500;
+  padding-right: 5%;
+}
+nav ul .nav-link {
+  color: #06155e;
+  font-size: larger;
+  font-weight: 300;
+}
+nav ul .nav-link:hover {
+  color: #06155e;
+  font-weight: 400;
+}
+nav div {
+  justify-content: end;
+}
