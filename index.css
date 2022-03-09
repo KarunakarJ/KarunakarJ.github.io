@@ -1,10 +1,5 @@
-html {
-  background-color: #fbf8cc;
-}
 * {
   background-color: #fbf8cc;
-  margin: 0;
-  padding: 0;
 }
 nav a.navbar-brand {
   padding-left: 3%;
@@ -26,9 +21,7 @@ nav div {
 }
 /* End of navigation bar */
 
-.homepage .row {
-  text-align: center;
-}
+/* Homepage */
 .homepage .row h1 {
   color: #06155e;
   font-weight: 800;
@@ -44,6 +37,9 @@ nav div {
   font-weight: 400;
   padding-bottom: 5%;
 }
+.homepage .button-style{
+  margin-left: 20%;
+}
 .homepage .row a {
   background-color: white;
   color: #06155e;
@@ -51,5 +47,5 @@ nav div {
 }
 .homepage .row a:hover {
   background-color: yellow;
-  margin: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
