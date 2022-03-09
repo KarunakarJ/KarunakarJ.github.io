@@ -24,3 +24,32 @@ nav ul .nav-link:hover {
 nav div {
   justify-content: end;
 }
+/* End of navigation bar */
+
+.homepage .row {
+  text-align: center;
+}
+.homepage .row h1 {
+  color: #06155e;
+  font-weight: 800;
+}
+.homepage .row h2 {
+  padding-top: 5%;
+  color: #06155e;
+  font-weight: 600;
+}
+.homepage .row h4 {
+  padding-top: 4%;
+  color: #06155e;
+  font-weight: 400;
+  padding-bottom: 5%;
+}
+.homepage .row a {
+  background-color: white;
+  color: #06155e;
+  font-weight: 600;
+}
+.homepage .row a:hover {
+  background-color: yellow;
+  margin: 2px;
+}
