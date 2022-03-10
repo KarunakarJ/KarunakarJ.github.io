@@ -10,11 +10,11 @@ nav a.navbar-brand {
 nav ul .nav-link {
   color: #06155e;
   font-size: larger;
-  font-weight: 300;
+  font-weight: 500;
 }
 nav ul .nav-link:hover {
   color: #06155e;
-  font-weight: 400;
+  font-weight: 600;
 }
 nav div {
   justify-content: end;
@@ -29,13 +29,13 @@ nav div {
 .homepage .row h2 {
   padding-top: 5%;
   color: #06155e;
-  font-weight: 600;
-}
-.homepage .row h4 {
-  padding-top: 4%;
-  color: #06155e;
   font-weight: 400;
-  padding-bottom: 5%;
+}
+.homepage .row h3{
+  color: #06155e;
+  font-weight: 300;
+  padding-top: 0%;
+  padding-bottom: 6%;
 }
 .homepage .button-style{
   margin-left: 20%;
@@ -48,4 +48,30 @@ nav div {
 .homepage .row a:hover {
   background-color: yellow;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*About page*/
+.aboutpage{
+  padding-top: 5%;
+}
+.aboutpage h1#about-text{
+  color: yellow;
+  font-weight: 900;
+  opacity: 0.3;
+}
+.aboutpage h5{
+  color: #06155e;
+  font-weight: 300;
+}
+.aboutpage h3{
+  color: yellow;
+  font-weight: 900;
+  opacity: 0.3;
+}
+.aboutpage .container h4{
+  font-size: x-large;
+  color: #06155e;
+  font-weight: 400;
+  padding-top: 10%;
+  padding-bottom: 4%;
 }

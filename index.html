@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="index.css" />
     <link
@@ -27,7 +27,7 @@
     </div>
     <!--Naviagtion Bar-->
     <nav class="navbar sticky-top navbar-expand-sm navbar-light p-3">
-      <a class="navbar-brand" href="#"
+      <a class="navbar-brand" href="#alerts"
         ><img src="resources/images/logo.png" width="40" height="40"
       /></a>
       <button
@@ -44,7 +44,7 @@
             <a href="#alerts" class="nav-link js-scroll-trigger">Home</a>
           </li>
           <li class="nav-item pl-3">
-            <a href="#" class="nav-link js-scroll-trigger">About</a>
+            <a href="#about" class="nav-link js-scroll-trigger">About</a>
           </li>
           <li class="nav-item pl-3">
             <a href="#" class="nav-link js-scroll-trigger">Projects</a>
@@ -53,7 +53,7 @@
             <a href="#" class="nav-link js-scroll-trigger">Contact</a>
           </li>
         </ul>
-        <a href="#" class="navitem-link pl-3">
+        <a href="#" class="navitem-link pl-3 ml-5">
           <img
             src="resources/images/linkedin_icon.png"
             width="30"
@@ -71,24 +71,23 @@
     <!--End of Navigation Bar-->
 
     <!-- Home page-->
-    <div class="container-fluid pt-3">
-      <div class="homepage container-sm">
+    <div class="container-fluid pt-1 pb-5" id="home">
+      <div class="homepage container-md">
         <div class="row">
-          <div class="col-sm-7" id="home">
-            <h2 class="display-5">Hi, I am Karunakar</h2>
-            <h1 class="display-4">Software Developer</h1>
-            <h4>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-              nostrum architecto qui illo accusamus blanditiis sint ex suscipit
-              adipisci quisquam?
-            </h4>
+          <div class="col-sm-7 pt-3">
+            <h2>Hello, I'm Karunakar,</h2>
+            <h1 class="display-4">Software</h1>
+            <h1 class="display-4">Developer</h1>
+            <h3>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nisi.
+            </h3>
             <div class="button-style">
               <a href="" type="button" class="btn btn-outline-dark btn-lg">
                 Download CV
               </a>
             </div>
           </div>
-          <div class="col-sm-5 pt-5">
+          <div class="col-sm-5 pt-3 mt-3">
             <img src="resources/images/profilepic.png"
             class="mx-auto d-block"
              />
@@ -98,13 +97,88 @@
     </div>
     <!--End of Homepage-->
 
+    <!--About page-->
+    <div class="container-fluid pt-4" id="about">
+      <div class="aboutpage container-md">
+        <h1 class="display-3" id="about-text">about.</h1>
+        <h5 class="display-5 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos 
+          tempora illo tempore voluptatum libero doloribus optio, assumenda
+           molestiae vitae excepturi!</h5>
+        <h3 class="display-4 pt-4 mt-4">skills.</h3>
+
+        <div class="container">
+          <div class="row pt-4">
+            <div class="col">
+              <h4 class="text-center">Python</h4>
+              <div class="text-center">
+              <img src="resources/images/python.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Java</h4>
+              <div class="text-center">
+              <img src="resources/images/java.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Git</h4>
+              <div class="text-center">
+              <img src="resources/images/git.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Github</h4>
+              <div class="text-center">
+              <img src="resources/images/github_icon.png"
+              width="100" height="100"/>
+              </div>
+            </div>         
+          </div>
+          <div class="row pt-5 pb-5">
+            <div class="col">
+              <h4 class="text-center">HTML5</h4>
+              <div class="text-center">
+              <img src="resources/images/html5.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">CSS3</h4>
+              <div class="text-center">
+              <img src="resources/images/css3.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Bootstrap</h4>
+              <div class="text-center">
+              <img src="resources/images/bootstrap.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Linux</h4>
+              <div class="text-center">
+              <img src="resources/images/redhat.png"
+              width="100" height="100"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--Script for hamburger menu scroll up after pressing-->
     <script type="text/javascript">    
       $('.js-scroll-trigger').click(function() {
       $('.navbar-collapse').collapse('hide');
     });
  </script>
-
-    
 
   </body>
 </html>
