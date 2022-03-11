@@ -57,7 +57,7 @@ nav div {
 .aboutpage h1#about-text{
   color: brown;
   font-weight: 900;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 .aboutpage h5{
   color: #06155e;
@@ -66,7 +66,7 @@ nav div {
 .aboutpage h3{
   color: brown;
   font-weight: 900;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 .aboutpage .container h4{
   font-size: x-large;
@@ -74,4 +74,11 @@ nav div {
   font-weight: 400;
   padding-top: 10%;
   padding-bottom: 4%;
+}
+
+/*Contact Page*/
+.contact h1#contact-text{
+  color: brown;
+  font-weight: 900;
+  opacity: 0.6;
 }
