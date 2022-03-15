@@ -76,9 +76,23 @@ nav div {
   padding-bottom: 4%;
 }
 
+.project h1#project-text{
+  color: brown;
+  font-weight: 900;
+  opacity: 0.6;
+}
+div .progress .progress-bar{
+  background-color:#06155e;
+}
+
 /*Contact Page*/
 .contact h1#contact-text{
   color: brown;
   font-weight: 900;
   opacity: 0.6;
+}
+.contact label{
+  color: #06155e;
+  font-size: x-large;
+  font-weight: 300;
 }
