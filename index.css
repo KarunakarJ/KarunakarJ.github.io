@@ -81,9 +81,6 @@ nav div {
   font-weight: 900;
   opacity: 0.6;
 }
-div .progress .progress-bar{
-  background-color:#06155e;
-}
 
 /*Contact Page*/
 .contact h1#contact-text{
@@ -95,4 +92,12 @@ div .progress .progress-bar{
   color: #06155e;
   font-size: x-large;
   font-weight: 300;
+}
+
+/* Footer*/
+footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  color:#06155e;
 }
